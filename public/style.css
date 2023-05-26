@@ -8,11 +8,8 @@ body {
   min-width: 100vw;
   /* background: rgb(239, 238, 238); */
   background: rgba(188, 105, 138, 0.5);
-  background-image: radial-gradient(circle at bottom left, rgba(255, 255, 0, 0.9), rgba(255, 255, 0, 0) 70%),
-    radial-gradient(circle at top left, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0) 70%),
-    radial-gradient(circle at center right, rgba(255, 0, 255, 0.8), rgba(255, 0, 255, 0) 50%);
-  background-size: 200% 200%;
-  animation: movement 30s ease infinite alternate-reverse;
+  background-image: url(./688653_0164ef6908b34bea9274ad062f59bc1e~mv2.webp);
+  background-size: 100% 100%;
 }
 
 @keyframes movement {
@@ -51,7 +48,6 @@ section {
   backdrop-filter: blur(1rem);
   border-radius: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0.8rem 0.8rem 1.6rem 0 rgba(206, 205, 205, 0.5), -0.8rem -0.8rem 1.6rem 0 rgba(255, 255, 255, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
